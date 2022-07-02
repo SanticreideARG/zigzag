@@ -8,26 +8,26 @@
 	padding: 0;
 	margin: 0;
 	color: #ffffff;
-	}
+}
 
 	main {
-    background-color: #141422;
+	background: rgb(20,20,34);
+	background: linear-gradient(45deg, rgba(20,20,34,1) 0%, rgba(0,119,176,1) 100%);
     margin: 0;
-    }
+}
 								   /*Header*/
-
 	.header {
 	font-family: 'Montserrat', sans-serif;
-	}
+}
 
 	.header__logo {
 	margin-left: 5%;
 	height: 150px;
-	}
+}
 
 	.header__logo2 {
 	height: 150px;
-	}
+}
 
 	
 
@@ -36,53 +36,16 @@
 	color: #6495ED ;
 	background-color: #000000;
 	text-align: center;
-	}
+}
 
 	.header__title h1{
 	display: none;
-	}
+}
 
 	.header__title h2{
 	display: none;
-	}
+}
 
-
-									/*Nav*/
-	.nav {
-	display: flex;
-	position: sticky;
-	top:0;
-	justify-content: space-around ;
-	font-family: 'Montserrat', serif;
-	font-weight: bold;
-	color: #111121 ;
-	background-color: #050511;
-	border-bottom: 3px solid #080817;
-	border-top: 3px solid #222232;
-	height: 100%;
-	}
-
-	.nav__button {
-	 border-top: 3px solid #222232;
-	 border-left: 3px solid #222232;
-	 border-bottom: 3px solid #111117;
-	 border-right: 3px solid #111117;
-	 padding: 10px 4%;
-	 margin: 4px ;
-	 background-color: #040405;
-	 border-radius: 2px;
-	}
-    
-    li {display:block;
-	width:120px;
-	float:left;
-	margin-left:2px;
-	border:1px solid #000;
-    }
-
-	a:visited {
-	color: #F2EBE9;
-	}
 
 									/*Main*/
 
@@ -91,15 +54,13 @@
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	text-align: center;
-	background-color: #141422;
-
-	}
+}
 
 	.section__p {
 	font-family: 'Montserrat', sans-serif;
 	padding-bottom: 15px;
 	text-align: center;
-	}
+}
 
 									/*Cards*/
 	.customcards {
@@ -110,37 +71,38 @@
 	grid-gap: 30px;
 	font-family: 'Joan', sans-serif;
 	text-align: center;
-	background-color: #141422;
-	padding-left: 3%;
-	}
+	background: rgba(20,20,34,0.3);
+	border-radius: 9px;
+}
 
 	.customcard {
 	display: grid;
 	grid-template-rows: max-content 200px 1fr;
 	box-shadow: 5px 7px 27px 5px #000000;
 	border-radius: 5px;
-	}
+}
 
 	.customcard h2 {
 	font-size: 20px;
-	}
+}
 
 	.customcard footer {
-	background-color: #455979;
-	}
+	background-color: #07b94b;
+	border-radius: 5px;
+}
 
 	.customcard img {
 	object-fit: cover;
 	width: 100%;
 	height: 100%;
-	}
+}
 
 									/*Section*/
 	.section {
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	background-color: #B1BCE6 ;
-	}
+}
 
 									/*Us*/
 	.us {
@@ -148,94 +110,92 @@
 	font-family: 'Montserrat', sans-serif;
 	margin-top: 35px;
 	padding-bottom: 45px;
-	}
+}
 
 	.us h2 {
 	font-family: 'Montserrat', sans-serif;
 	padding-top: 30px ;
 	margin-bottom: 25px;
 	text-align: center;
-	}
+}
 
 	.us__photos  { 
 	width: 20%;
  	box-shadow: 5px 5px 15px 5px #000000;
-	}
+}
 
 									/*Why*/
 	.why__h2 {
 	padding: 25px ;
-	background-color: #050511;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
-	border-top: 4px solid #191929;
-	}
+	background-color: rgba(0,119,176,0.4);
+}
 
 	.why {
-	background-color: #101021;
+	background-color: rgba(0,119,176,0.4);
 	display: flex;
-
 	font-family: 'Joan', sans-serif;
-	padding: 45px 5%;
-	    }
+	padding: 45px 4.2%;
+}
 
 									/*Footer*/
 	.footer {
 	padding: 7px;
-	background-color: #121212 ;
+	background-color: #000000 ;
 	color: #ECE5C7;
-	font-family: 'Joan', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	border: 4px solid #101010;
 	display: flex;
 	justify-content: space-around ;
 	flex-flow: wrap;
-	}
+}
 
 	.footer a{
+	text-decoration: none;
 	padding-left: 5px;
 	margin-top: -25px;
-	}
+}
 
 	.icon {
 	height: 30px;
-	}
+}
 
 	.footer__copyright {
 	right: 0;
-	}
+}
 
 									/*PAGE SECTION NOSOTROS*/
 	.nosotros {
-	background-color: #101021;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	padding: 30px;
-	}
+}
 	.nosotros__section1 {
 	width: 90%;
  	text-align: center;
  	display: flex;
  	padding: 20px;
-	}
+}
 	.nosotros__section1__photo {
 	width: 80%;
 	border-radius: 4px;
 	box-shadow: 5px 5px 15px 5px #000000;
-	}
+}
 	.mapouter { 
-		position: relative;
-		padding-bottom: 56.25%;
-		height: 0;
-		overflow: hidden;
-		margin-bottom: 45px;
-	}
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	margin-bottom: 45px;
+}
 	.mapouter iframe{
-			position: absolute;
-			top:0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-	}
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 									/*PAGE SECTION Catalogo*/
 
 									/*PAGE SECTION Galeria*/
@@ -245,11 +205,11 @@
 	padding-left: 6%;
 	flex-wrap: wrap;
 	padding-bottom: 25px;
-	}
+}
 
 	.gallery__image {
 	box-shadow: 5px 5px 15px 5px #000000;
-	}
+}
 
 									/*PAGE SECTION Contacto*/
 	form {
@@ -260,8 +220,7 @@
 	display: flex;
 	flex-flow: column;
 	padding-bottom: 100px;	
-	}
-
+}
 	form button {
 	background-color: #4CAF50; 
  	border: none;
@@ -271,31 +230,57 @@
  	text-align: center;
  	display: inline-block;
 	font-size: 16px;
-	}
-
+}
+	.redes {
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.2);
+	padding: 15px;
+}
+	h4 {
+	margin-top: 45px;
+	text-align: center;
+}
 	::textarea {
  	 color: #000000;
-	}
+}
+										/*New Animations*/
+	@keyframes hovercards {  
+	0%    {background-color:rgba(0, 0, 0, 0.1);}
+	100% {background-color: rgba(0, 0, 0, 0.4);}
+ }
 
+.customcard:hover{
+	animation-name: hovercards;	
+	animation-duration: 0.3s;
+}
+.why__card:hover{
+	animation-name: hovercards;	
+	animation-duration: 0.3s;
+}
 										/*Media Querries*/
 
 	@media (max-width: 768px) {
-	.header__logo{
+.header__logo{
 		margin-left: 5%;
 		height: 100px;
 	}
-	.header__logo2{
+.header__logo2{
 		margin-left: 5%;
 		height: 100px;
 	}
-	.cards {
+.cards {
+		font-family: 'Roboto', Courier, monospace;
 		grid-template-columns: 50% 50%;
 		grid-gap: 2px;
 		}
-	.card{
+.card{
 		width: 90%;
+		font-family: 'Roboto', Courier, monospace;
+
 	}
-	.nav__button {
+.nav__button {
 		border-top: 2px solid #222232;
 		border-left: 2px solid #222232;
 		border-bottom: 2px solid #111117;
@@ -304,12 +289,12 @@
 		margin: 1px ;
 		border-radius: 1px;
 	   }
-	.why {
+.why {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(2, 1fr);
 	   }
-	.why_card {
+.why_card {
 		padding: 15px;
-	   }
 	}
+}

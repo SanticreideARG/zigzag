@@ -1,3 +1,3 @@
-# zigzagpatagonia
-Zig Zag  Patagonia Web Page
+## zigzagpatagonia
+###Zig Zag  Patagonia Web Page
 Proyecto para coderhouse
