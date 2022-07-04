@@ -32,12 +32,10 @@
 	
 
 	.header__title {
-	display: block;
 	color: #6495ED ;
 	background-color: #000000;
 	text-align: center;
 }
-
 	.header__title h1{
 	display: none;
 }
@@ -145,6 +143,7 @@
 	background-color: #000000 ;
 	color: #ECE5C7;
 	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
 	border: 4px solid #101010;
 	display: flex;
 	justify-content: space-around ;
@@ -154,11 +153,14 @@
 	.footer a{
 	text-decoration: none;
 	padding-left: 5px;
-	margin-top: -25px;
+	margin-top: 50px;
+	color: #ECE5C7;
+	
 }
 
 	.icon {
 	height: 30px;
+	margin-top: 2px;
 }
 
 	.footer__copyright {
@@ -174,10 +176,11 @@
 	.nosotros__section1 {
 	width: 90%;
  	text-align: center;
- 	display: flex;
+ 	display: grid;
+	grid-template-columns: auto auto auto;
  	padding: 20px;
 }
-	.nosotros__section1__photo {
+	.nosotros__section1 img {
 	width: 80%;
 	border-radius: 4px;
 	box-shadow: 5px 5px 15px 5px #000000;
@@ -255,10 +258,7 @@
 	animation-name: hovercards;	
 	animation-duration: 0.3s;
 }
-.why__card:hover{
-	animation-name: hovercards;	
-	animation-duration: 0.3s;
-}
+
 										/*Media Querries*/
 
 	@media (max-width: 768px) {
@@ -294,7 +294,5 @@
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(2, 1fr);
 	   }
-.why_card {
-		padding: 15px;
-	}
+
 }
