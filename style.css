@@ -12,7 +12,7 @@
 
 	main {
 	background: rgb(20,20,34);
-	background: linear-gradient(45deg, rgba(20,20,34,1) 0%, rgba(0,119,176,1) 100%);
+	background: linear-gradient(45deg, rgb(43, 43, 56) 0%, rgb(0, 60, 255) 100%);
     margin: 0;
 }
 								   /*Header*/
@@ -124,7 +124,6 @@
 
 									/*Why*/
 	.why__h2 {
-	padding: 25px ;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	background-color: rgba(0,119,176,0.4);
