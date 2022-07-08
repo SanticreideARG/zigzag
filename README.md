@@ -5,8 +5,12 @@ Educational Purposes
 
 04-July
 New features: 
-Bootstrap 5 Nav added
-Index Why Us container corrected.
+Bootstrap 5 Nav added on
+Index image Carrousel
+06-July
+Index Why choose us container corrected and png images added
+Cards zoom animation and padding fix
+
 Footer container modified
 Us Page added Grid container use for fixing Flex Div's malfunction.
 

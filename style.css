@@ -198,9 +198,55 @@
 	width: 100%;
 	height: 100%;
 }
-									/*PAGE SECTION Catalogo*/
+	/*Animation*/
 
-									/*PAGE SECTION Galeria*/
+	 div.at-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+	  }
+	  .at-item {
+		width: 100px;
+		height: 100px;
+		background-color:#ffe672;
+		animation-name: wobble-hor-top;
+		animation-duration: 1s;
+		animation-timing-function: ease;
+		animation-delay: 0s;
+		animation-iteration-count: 1;
+		animation-direction: normal;
+		animation-fill-mode: none;
+		/* shorthand 
+		animation: wobble-hor-top 1s ease 0s 1 normal none;
+		*/ 
+	  }
+	  @keyframes wobble-hor-top {
+		0%{
+		  transform: translateX(0%);
+		  transform-origin: 50% 50%;
+		}
+		15%{
+		  transform: translateX(-30px) rotate(6deg);
+		}
+		30%{
+		  transform: translateX(15px) rotate(-6deg);
+		}
+		45%{
+		  transform: translateX(-15px) rotate(3.6deg);
+		}
+		60%{
+		  transform: translateX(9px) rotate(-2.4deg);
+		}
+		75%{
+		  transform: translateX(-6px) rotate(1.2deg);
+		}
+		100%{
+		  transform: translateX(0%);
+		  transform-origin: 50% 50%;
+		}
+	  }
+								         	/*PAGE SECTION Galeria*/
 
 	.galeria {
 	display: flex;
@@ -213,7 +259,7 @@
 	box-shadow: 5px 5px 15px 5px #000000;
 }
 
-									/*PAGE SECTION Contacto*/
+								             	/*PAGE SECTION Contacto*/
 	form {
 	font-family: 'Montserrat', sans-serif;
 	color: #000000;
@@ -223,6 +269,10 @@
 	flex-flow: column;
 	padding-bottom: 100px;	
 }
+	textarea {
+		color: #000000;
+	}
+
 	form button {
 	background-color: #4CAF50; 
  	border: none;
@@ -240,6 +290,12 @@
 	background-color: rgba(0, 0, 0, 0.2);
 	padding: 15px;
 }
+.redes a{
+	color: #1d1d1d;
+	text-decoration: none;
+	font-weight: 700;
+}
+
 	h4 {
 	margin-top: 45px;
 	text-align: center;
@@ -247,7 +303,7 @@
 	::textarea {
  	 color: #000000;
 }
-										/*New Animations*/
+										         /*New Animations*/
 	@keyframes hovercards {  
 	0%    {background-color:rgba(255, 255, 255, 0.2);}
 	100% {background-color: rgba(0, 0, 0, 0.4);}
