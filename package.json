@@ -1,0 +1,22 @@
+{
+  "name": "zigzag",
+  "version": "1.0.0",
+  "description": "Zig Zag patagonia page",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --include-path sass ./sass/index.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanticreideARG/zigzag.git"
+  },
+  "author": "Santiago Creide",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SanticreideARG/zigzag/issues"
+  },
+  "homepage": "https://github.com/SanticreideARG/zigzag#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
