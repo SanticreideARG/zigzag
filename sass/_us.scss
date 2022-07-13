@@ -1,0 +1,54 @@
+.us {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 35px;
+	padding-bottom: 45px;
+     h2 {
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 30px ;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+	&__photos  { 
+		width: 20%;
+		 box-shadow: 5px 5px 15px 5px #000000;
+		 &:hover{
+			animation-name: hovercards;	
+			animation-duration: 0.3s;
+				transform: scale(1.1);
+				z-index: 3;
+			}
+}
+
+
+}	.nosotros {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding: 30px;
+}
+	.nosotros__section1 {
+	width: 90%;
+ 	text-align: center;
+ 	display: grid;
+	grid-template-columns: auto auto auto;
+ 	padding: 20px;
+    img {
+        width: 80%;
+        border-radius: 4px;
+        box-shadow: 5px 5px 15px 5px #000000;
+    }
+}
+	.mapouter { 
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	margin-bottom: 45px;
+    iframe{
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
