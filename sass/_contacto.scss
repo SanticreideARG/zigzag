@@ -6,29 +6,30 @@ form {
 	display: flex;
 	flex-flow: column;
 	padding-bottom: 100px;	
-}
-	textarea {
-		color: #000000;
+	&button {
+		background-color: #4CAF50; 
+		 border: none;
+		 color: $txWhite;
+		 margin-top: 25px;
+		 padding: 15px 40px;
+		 text-align: center;
+		 display: inline-block;
+		font-size: 16px;
 	}
-
-	form button {
-	background-color: #4CAF50; 
- 	border: none;
- 	color: white;
- 	margin-top: 25px;
- 	padding: 15px 40px;
- 	text-align: center;
- 	display: inline-block;
-	font-size: 16px;
 }
+	textarea select{
+		color: #000000;
+}
+
 	.redes {
 	display: flex;
 	justify-content: space-evenly;
 	text-align: center;
 	background-color: rgba(0, 0, 0, 0.2);
 	padding: 15px;
+	
     a{
-        color: #e0e0e0;
+        color: $txWhite;
         text-decoration: none;
         font-weight: 700;
     }

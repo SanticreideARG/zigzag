@@ -1,3 +1,9 @@
+.boxshadow{
+	box-shadow: 5px 5px 15px 5px #000000;
+    &:hover{
+    transform: scale(1.2);
+}
+
 .galeria {
 	display: flex;
 	padding-left: 6%;
@@ -5,9 +11,7 @@
 	padding-bottom: 25px;
 }
 
-	.gallery__image {
-	box-shadow: 5px 5px 15px 5px #000000;
-    &:hover{
-        transform: scale(1.4);
+.gallery__image {
+	@extend .boxshadow
     }
 }

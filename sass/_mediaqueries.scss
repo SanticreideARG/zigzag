@@ -1,36 +1,24 @@
 @media (max-width: 768px) {
-    .header__logo{
+    .header
+    &__logo{
             margin-left: 5%;
             height: 100px;
         }
-    .header__logo2{
+    &__logo2{
             margin-left: 5%;
             height: 100px;
-        }
+        }}
     .cards {
-            font-family: 'Roboto', Courier, monospace;
             grid-template-columns: 50% 50%;
             grid-gap: 2px;
             }
     .card{
             width: 90%;
-            font-family: 'Roboto', Courier, monospace;
-    
         }
-    .nav__button {
-            border-top: 2px solid #222232;
-            border-left: 2px solid #222232;
-            border-bottom: 2px solid #111117;
-            border-right: 2px solid #111117;
-            padding: 2px 1%;
-            margin: 1px ;
-            border-radius: 1px;
-           }
     .why {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(2, 1fr);
            }
     
-    }
     

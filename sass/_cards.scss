@@ -1,3 +1,14 @@
+.roundborder{
+	border-radius: 8px;
+}
+.hovercards{	
+	&:hover{
+	animation-name: hovercards;	
+	animation-duration: 0.3s;
+		transform: scale(1.15);
+		z-index: 3;
+	}
+  }
 .customcards {
 	padding: 45px 20px;
 	width: 100%;
@@ -7,7 +18,7 @@
 	font-family: 'Joan', sans-serif;
 	text-align: center;
 	background: rgba(20,20,34,0.3);
-	border-radius: 9px;
+	@extend .roundborder
    
 
 }
@@ -16,21 +27,29 @@
 	display: grid;
 	grid-template-rows: max-content 200px 1fr;
 	box-shadow: 5px 7px 27px 5px #000000;
-	border-radius: 5px;
-    &:hover{
-        animation-name: hovercards;	
-        animation-duration: 0.3s;
-            transform: scale(1.1);
-            z-index: 3;
-        }
-    h2 {
-        font-size: 20px;}
-    footer {
-        background-color: #07b94b;
-        border-radius: 5px;}
-    img {
+    @extend .hovercards;
+    @extend .roundborder;
+    }
+    
+.customcard__header {
+        font-size: 18px;}
+.customcard__footer {
+    // background-color:rgb(60, 255, 0);
+	@extend .roundborder
+    }
+.customcard__image {
         object-fit: cover;
-        width: 100%;
-        height: 100%;}
-}
+        @extend .roundborder;
+        @extend .sidemargins}
 
+$stockStatus: (
+    sold: rgb(155, 0, 0),
+    stock: rgb(0, 155, 0)
+    );
+
+
+@each $nombre, $color in $stockStatus {
+    .status-#{$nombre} {
+        background-color: $color;
+    }
+}

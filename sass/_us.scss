@@ -1,6 +1,6 @@
 .us {
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+
 	margin-top: 35px;
 	padding-bottom: 45px;
      h2 {
@@ -13,11 +13,11 @@
 		width: 20%;
 		 box-shadow: 5px 5px 15px 5px #000000;
 		 &:hover{
-			animation-name: hovercards;	
-			animation-duration: 0.3s;
-				transform: scale(1.1);
-				z-index: 3;
-			}
+		animation-name: hovercards;	
+		animation-duration: 0.3s;
+		transform: scale(1.1);
+		z-index: 3;
+		}
 }
 
 
