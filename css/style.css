@@ -28,22 +28,15 @@ h4 {
 
 .header {
   font-family: 'Montserrat', sans-serif; }
-
-.header__logo {
-  margin-left: 5%;
-  height: 150px; }
-
-.header__logo2 {
-  height: 150px; }
-
-.header__title {
-  color: #6495ED;
-  background-color: #000000;
-  text-align: center; }
-  .header__title h1 {
-    display: none; }
-  .header__title h2 {
-    display: none; }
+  .header__logo {
+    margin-left: 5%;
+    height: 150px; }
+  .header__logo2 {
+    height: 150px; }
+  .header__title {
+    color: #6495ED;
+    background-color: #000000;
+    text-align: center; }
 
 .nav-item:hover {
   transform: scale(1.1);
