@@ -39,7 +39,7 @@ h4 {
 .boxshadow {
   box-shadow: 5px 5px 15px 5px #000000; }
   .boxshadow:hover {
-    transform: scale(1.4); }
+    transform: scale(1.2); }
 
 .header {
   font-family: 'Montserrat', sans-serif; }
@@ -61,15 +61,15 @@ h4 {
 
 .footer {
   background-color: #000000;
-  color: #ECE5C7;
   font-family: 'Roboto', sans-serif;
-  font-weight: bolder;
   border: 15px solid #000000;
   display: flex;
   justify-content: space-around;
-  flex-flow: wrap; }
+  text-shadow: #6495ED;
+  row-gap: 9px; }
   .footer__copyright {
-    right: 0; }
+    right: 0;
+    color: #3f3f3f; }
   .footer a {
     padding-left: 5px;
     margin-top: 50px;
@@ -311,7 +311,7 @@ div.at-container {
 .hovercards:hover, .footer a:hover, .icon:hover, .footer__whatsaap:hover, .footer__instagram:hover, .footer__facebook:hover, .customcard:hover, .gallery__image:hover {
   animation-name: hovercards;
   animation-duration: 0.3s;
-  transform: scale(1.08);
+  transform: scale(1.09);
   z-index: 3; }
 
 .boxshadow {
@@ -339,5 +339,16 @@ div.at-container {
     grid-template-rows: repeat(2, 1fr); }
   .gallery__image {
     width: 90%; }
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+  .footer__facebook {
+    margin-top: 15px; }
   .footer__copyright {
-    padding-top: 15px; } }
+    margin-top: 7px; }
+  .customcards {
+    grid-template-columns: 50% 50%;
+    grid-gap: 11px;
+    row-gap: 23px;
+    font-size: smaller;
+    width: 96%; } }

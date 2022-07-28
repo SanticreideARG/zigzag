@@ -24,15 +24,16 @@
 
 .footer {
 	background-color: #000000 ;
-	color: $txWhite;
 	font-family: 'Roboto', sans-serif;
-	font-weight: bolder;
 	border: 15px solid #000000;
 	display: flex;
 	justify-content: space-around ;
-	flex-flow: wrap;
+    text-shadow: #6495ED;
+	row-gap: 9px;
+
     &__copyright {
         right: 0;
+		color: $footerColor;
     }
     a{
         padding-left: 5px;

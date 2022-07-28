@@ -21,7 +21,21 @@
     .gallery__image{
         width: 90%;
     }
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer__facebook {
+        margin-top: 15px;
+      }
     .footer__copyright{
-        padding-top: 15px;
+        margin-top: 7px;
+    }
+    .customcards{
+        grid-template-columns: 50% 50%;
+        grid-gap: 11px;
+        row-gap: 23px;
+        font-size: smaller;
+        width: 96%;
     }
 }
