@@ -12,8 +12,22 @@
 	background: $bgBright;
     margin: 0;
 }
-
+h1{
+	font-family: Roboto, 'Times New Roman', Times, serif;
+	font-weight: bolder;
+}
+h2{
+	font-family: Roboto, 'Times New Roman', Times, serif;
+	font-weight: bolder;
+}
+h3{
+	font-family: Roboto, 'Times New Roman', Times, serif;
+	font-weight: bolder;
+	font-size: 1.3em;
+}
 h4 {
+	font-family: Roboto, 'Times New Roman', Times, serif;
+	font-weight: bolder;
 	margin-top: 45px;
 	text-align: center;
 }
@@ -32,4 +46,3 @@ h4 {
     transform: scale(1.4);
 }
 }
-

@@ -1,14 +1,7 @@
 .roundborder{
 	border-radius: 8px;
 }
-.hovercards{	
-	&:hover{
-	animation-name: hovercards;	
-	animation-duration: 0.3s;
-		transform: scale(1.15);
-		z-index: 3;
-	}
-  }
+
 .customcards {
 	padding: 45px 20px;
 	width: 100%;
@@ -34,7 +27,6 @@
 .customcard__header {
         font-size: 18px;}
 .customcard__footer {
-    // background-color:rgb(60, 255, 0);
 	@extend .roundborder
     }
 .customcard__image {
@@ -52,4 +44,27 @@ $stockStatus: (
     .status-#{$nombre} {
         background-color: $color;
     }
+}
+//  Se debe determinar en el footer de las cards si estas estan sold o 
+//  stock mediante clases para que el mixin funcione
+.catalogoLink{
+	font-family: Roboto, 'Times New Roman', Times, serif;
+	font-weight: bolder;
+	display: inline-block;
+	background-color: #00ad65;
+	color: #002013;
+	width: 100%;
+	font-weight: bolder;
+	font-size: 1.5em;
+	border-radius: 4px;
+	text-align: center;
+	line-height: 28px;
+	padding: 0.4em;
+	text-decoration: none;
+	margin-top: 10px;
+	&:hover{
+		background-color: #40d899;
+		font-size: 1.6em;
+
+	}
 }

@@ -7,10 +7,25 @@
   color: #ffffff; }
 
 main {
-  background: #251c3b;
+  background: #012d38;
   margin: 0; }
 
+h1 {
+  font-family: Roboto, 'Times New Roman', Times, serif;
+  font-weight: bolder; }
+
+h2 {
+  font-family: Roboto, 'Times New Roman', Times, serif;
+  font-weight: bolder; }
+
+h3 {
+  font-family: Roboto, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 1.3em; }
+
 h4 {
+  font-family: Roboto, 'Times New Roman', Times, serif;
+  font-weight: bolder;
   margin-top: 45px;
   text-align: center; }
 
@@ -21,9 +36,9 @@ h4 {
   width: 100%;
   height: 100%; }
 
-.boxshadow, .boxshadow .gallery__image {
+.boxshadow {
   box-shadow: 5px 5px 15px 5px #000000; }
-  .boxshadow:hover, .boxshadow .gallery__image:hover {
+  .boxshadow:hover {
     transform: scale(1.4); }
 
 .header {
@@ -38,17 +53,18 @@ h4 {
     background-color: #000000;
     text-align: center; }
 
-.nav-item:hover {
-  transform: scale(1.1);
-  background-color: #251c3b; }
+.nav-item {
+  font-weight: 600; }
+  .nav-item:hover {
+    transform: scale(1.02);
+    background-color: #012d38; }
 
 .footer {
-  padding: 7px;
   background-color: #000000;
   color: #ECE5C7;
   font-family: 'Roboto', sans-serif;
   font-weight: bolder;
-  border: 4px solid #101010;
+  border: 15px solid #000000;
   display: flex;
   justify-content: space-around;
   flex-flow: wrap; }
@@ -65,20 +81,20 @@ h4 {
 
 .footer__whatsaap {
   background-color: #00c800;
-  height: 40px;
-  width: 200px;
+  height: 36px;
+  width: 150px;
   padding-left: 15px; }
 
 .footer__instagram {
   background-color: #92002c;
-  height: 40px;
-  width: 200px;
+  height: 36px;
+  width: 150px;
   padding-left: 15px; }
 
 .footer__facebook {
   background-color: #000063;
-  height: 40px;
-  width: 200px;
+  height: 36px;
+  width: 150px;
   padding-left: 15px; }
 
 form {
@@ -89,7 +105,7 @@ form {
   display: flex;
   flex-flow: column;
   padding-bottom: 100px; }
-  formbutton {
+  form button {
     background-color: #4CAF50;
     border: none;
     color: #ECE5C7;
@@ -99,7 +115,7 @@ form {
     display: inline-block;
     font-size: 16px; }
 
-textarea select {
+textarea {
   color: #000000; }
 
 .redes {
@@ -113,10 +129,16 @@ textarea select {
     text-decoration: none;
     font-weight: 700; }
 
+select {
+  color: #000000; }
+  select option {
+    color: #000000; }
+
 .us {
   text-align: center;
   margin-top: 35px;
-  padding-bottom: 45px; }
+  padding-bottom: 45px;
+  width: 100%; }
   .us h2 {
     font-family: 'Montserrat', sans-serif;
     padding-top: 30px;
@@ -160,14 +182,8 @@ textarea select {
     width: 100%;
     height: 100%; }
 
-.roundborder, .footer__whatsaap, .footer__instagram, .footer__facebook, .customcards, .customcard, .customcard__footer, .customcard__image {
+.roundborder, .footer__whatsaap, .footer__instagram, .footer__facebook, .customcards, .customcard, .customcard__footer, .customcard__image, .gallery__image {
   border-radius: 8px; }
-
-.hovercards:hover, .footer a:hover, .icon:hover, .customcard:hover {
-  animation-name: hovercards;
-  animation-duration: 0.3s;
-  transform: scale(1.15);
-  z-index: 3; }
 
 .customcards {
   padding: 45px 20px;
@@ -195,6 +211,25 @@ textarea select {
 
 .status-stock {
   background-color: #009b00; }
+
+.catalogoLink {
+  font-family: Roboto, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  display: inline-block;
+  background-color: #00ad65;
+  color: #002013;
+  width: 100%;
+  font-weight: bolder;
+  font-size: 1.5em;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 28px;
+  padding: 0.4em;
+  text-decoration: none;
+  margin-top: 10px; }
+  .catalogoLink:hover {
+    background-color: #40d899;
+    font-size: 1.6em; }
 
 .section {
   font-family: 'Montserrat', sans-serif;
@@ -256,9 +291,32 @@ div.at-container {
   100% {
     background-color: rgba(0, 0, 0, 0.4); } }
 
-.boxshadow, .boxshadow .gallery__image {
+.hover-1 {
+  background-image: linear-gradient(#2873EE, #2873EE);
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: .4s; }
+
+.hover-1:hover {
+  background-size: 100% 100%; }
+
+.hover-2 {
+  background: linear-gradient(#2873EE 0 0) left/var(--p, 0) no-repeat;
+  transition: .4s,background-position 0s; }
+
+.hover-2:hover {
+  --p: 100%;
+  background-position: right; }
+
+.hovercards:hover, .footer a:hover, .icon:hover, .footer__whatsaap:hover, .footer__instagram:hover, .footer__facebook:hover, .customcard:hover, .gallery__image:hover {
+  animation-name: hovercards;
+  animation-duration: 0.3s;
+  transform: scale(1.08);
+  z-index: 3; }
+
+.boxshadow {
   box-shadow: 5px 5px 15px 5px #000000; }
-  .boxshadow:hover, .boxshadow .gallery__image:hover {
+  .boxshadow:hover {
     transform: scale(1.2); }
   .boxshadow .galeria {
     display: flex;
@@ -267,21 +325,19 @@ div.at-container {
     padding-bottom: 25px; }
 
 @media (max-width: 768px) {
-  .header __logo {
-    margin-left: 5%;
+  .header__logo2 {
     height: 100px; }
-  __logo2 {
-    margin-left: 5%;
-    height: 100px; } }
-
-.cards {
-  grid-template-columns: 50% 50%;
-  grid-gap: 2px; }
-
-.card {
-  width: 90%; }
-
-.why {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr); }
+  .header__logo {
+    display: none; }
+  .header .why {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); }
+  .galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); }
+  .gallery__image {
+    width: 90%; }
+  .footer__copyright {
+    padding-top: 15px; } }

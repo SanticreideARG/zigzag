@@ -1,24 +1,27 @@
 @media (max-width: 768px) {
-    .header
-    &__logo{
-            margin-left: 5%;
+    .header{
+    &__logo2{
             height: 100px;
         }
-    &__logo2{
-            margin-left: 5%;
-            height: 100px;
-        }}
-    .cards {
-            grid-template-columns: 50% 50%;
-            grid-gap: 2px;
-            }
-    .card{
-            width: 90%;
+    &__logo{
+        display: none;
         }
     .why {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(2, 1fr);
            }
-    
-    
+        }
+    .galeria {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+        }
+    .gallery__image{
+        width: 90%;
+    }
+    .footer__copyright{
+        padding-top: 15px;
+    }
+}

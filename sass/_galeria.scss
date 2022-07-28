@@ -9,9 +9,9 @@
 	padding-left: 6%;
 	flex-wrap: wrap;
 	padding-bottom: 25px;
+	}
 }
-
-.gallery__image {
-	@extend .boxshadow
-    }
+.gallery__image{
+	@extend .roundborder;
+	@extend .hovercards;
 }

@@ -6,7 +6,7 @@ form {
 	display: flex;
 	flex-flow: column;
 	padding-bottom: 100px;	
-	&button {
+	button {
 		background-color: #4CAF50; 
 		 border: none;
 		 color: $txWhite;
@@ -17,9 +17,11 @@ form {
 		font-size: 16px;
 	}
 }
-	textarea select{
+	textarea{
 		color: #000000;
-}
+	} 
+	
+		
 
 	.redes {
 	display: flex;
@@ -33,4 +35,10 @@ form {
         text-decoration: none;
         font-weight: 700;
     }
+}
+select{
+	option{
+		color: #000000;
+	}
+	color: #000000;
 }
