@@ -62,7 +62,7 @@
     @include fondo(rgb(0, 200, 0));
 }
 .footer__instagram{
-    @include fondo(rgb(146, 0, 44))
+    @include fondo(rgb(146, 0, 44));
 }
 .footer__facebook{
     @include fondo(rgb(0, 0, 99));
