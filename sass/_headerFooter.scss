@@ -8,7 +8,6 @@
 		height: 150px;
 	}
 	&__background {
-		color: #6495ED ;
 		background-color: #000000;
 		text-align: center;}
 	
@@ -39,7 +38,6 @@
         padding-left: 5px;
         margin-top: 50px;
         color: $txWhite;
-	@extend .hovercards
     }
 }
 
@@ -49,22 +47,27 @@
 	@extend .hovercards
 }
 
-@mixin fondo ($backcolor) {
+@mixin fondo ($backcolor, $linecolor, $fontcolor) {
     background-color: $backcolor;
+	border: 2px solid $linecolor;
 	height: 36px;
 	width: 150px;
 	padding-left: 15px;
+	a{	color: $fontcolor;
+		text-decoration: none;
+		font-weight: 800;
+	}
 	@extend .roundborder;
 	@extend .hovercards
 }
 
 .footer__whatsaap{
-    @include fondo(rgb(0, 200, 0));
+    @include fondo(rgb(0, 80, 0), (rgb(0, 37, 0)), (rgb(0, 212, 0)));
 }
 .footer__instagram{
-    @include fondo(rgb(146, 0, 44));
+    @include fondo(rgb(80, 0, 24), (rgb(32, 0, 10)), rgb(255, 0, 76));
 }
 .footer__facebook{
-    @include fondo(rgb(0, 0, 99));
+    @include fondo(rgb(0, 0, 61), (rgb(0, 0, 26)), (rgb(0, 0, 224)));
 }
 
