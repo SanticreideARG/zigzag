@@ -7,7 +7,7 @@
 	&__logo2 {
 		height: 150px;
 	}
-	&__title {
+	&__background {
 		color: #6495ED ;
 		background-color: #000000;
 		text-align: center;}
@@ -24,7 +24,7 @@
 
 .footer {
 	background-color: #000000 ;
-	font-family: 'Roboto', sans-serif;
+	font-family: $Roboto;
 	border: 15px solid #000000;
 	display: flex;
 	justify-content: space-around ;

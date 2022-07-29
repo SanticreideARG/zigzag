@@ -13,20 +13,20 @@
     margin: 0;
 }
 h1{
-	font-family: Roboto, 'Times New Roman', Times, serif;
-	font-weight: bolder;
+	font-family: $Roboto;
+	font-weight: 900;
 }
 h2{
-	font-family: Roboto, 'Times New Roman', Times, serif;
-	font-weight: bolder;
+	font-family: $Roboto;
+	font-weight: 700;
 }
 h3{
-	font-family: Roboto, 'Times New Roman', Times, serif;
+	font-family: $Roboto;
 	font-weight: bolder;
 	font-size: 1.3em;
 }
 h4 {
-	font-family: Roboto, 'Times New Roman', Times, serif;
+	font-family: $Roboto;
 	font-weight: bolder;
 	margin-top: 45px;
 	text-align: center;
