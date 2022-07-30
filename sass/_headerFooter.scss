@@ -29,16 +29,14 @@
 	justify-content: space-around ;
     text-shadow: #6495ED;
 	row-gap: 9px;
-
-    &__copyright {
-        right: 0;
-		color: $footerColor;
-    }
     a{
         padding-left: 5px;
         margin-top: 50px;
         color: $txWhite;
     }
+}
+.footer__copyright p{
+	color: rgb(44, 44, 44);
 }
 
 	.icon {

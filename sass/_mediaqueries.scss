@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
     .header{
     &__logo2{
-            height: 100px;
+            height: 150px;
         }
     &__logo{
         display: none;
@@ -24,13 +24,13 @@
     .footer{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        align-items: center;
-    }
-    .footer__facebook {
-        margin-top: 15px;
-      }
-    .footer__copyright{
-        margin-top: 7px;
+        grid-template-rows: 3;
+        &__facebook {
+            margin-top: 15px;
+          }
+          &__copyright{
+            margin-top: 7px;
+        }
     }
     .customcards{
         grid-template-columns: 50% 50%;
@@ -38,5 +38,25 @@
         row-gap: 23px;
         font-size: smaller;
         width: 96%;
+    }
+    h1{
+        font-size: 55px;
+    }
+    h2{
+        font-size: 46px;
+    }
+    h3{
+        font-size: 36px;
+    }
+    h4{
+        font-size: 36px;
+    }
+    .customcard__header h5{
+        font-size: 31px;
+
+    }
+    p{
+        font-size: 26px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 }
