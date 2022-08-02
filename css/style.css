@@ -72,11 +72,15 @@ h4 {
     color: #ECE5C7; }
 
 .footer__copyright p {
-  color: #2c2c2c; }
+  color: #2c2c2c;
+  font-size: 21px; }
 
 .icon {
   height: 30px;
   margin-top: 2px; }
+
+.logo img {
+  width: 200px; }
 
 .footer__whatsaap {
   background-color: #005000;
@@ -198,6 +202,11 @@ select {
     width: 100%;
     height: 100%; }
 
+.video1 {
+  height: 640px;
+  box-shadow: 5px 5px 15px 5px #000000;
+  margin-bottom: 25px; }
+
 .roundborder, .footer__whatsaap, .footer__instagram, .footer__facebook, .customcards, .customcard, .customcard__footer, .customcard__image, .gallery__image {
   border-radius: 8px; }
 
@@ -252,6 +261,9 @@ select {
     background-color: #00ff40;
     color: #ffffff;
     font-size: 1.6em; }
+
+* {
+  box-sizing: border-box; }
 
 .section {
   font-family: 'Montserrat', sans-serif;
@@ -346,6 +358,22 @@ div.at-container {
     flex-wrap: wrap;
     padding-bottom: 25px; }
 
+.gallery__image {
+  width: 20%; }
+
+.img-hover-zoom {
+  overflow: hidden; }
+
+.gallery__image {
+  transition: transform .5s ease-in-out; }
+
+/* The Transformation */
+.gallery__image:hover {
+  transform: scale(1.5); }
+
+.gallery__image:hover {
+  transform: scale(1.5) rotate(15deg); }
+
 @media (max-width: 768px) {
   .header__logo2 {
     height: 150px; }
@@ -371,10 +399,9 @@ div.at-container {
       margin-top: 7px; }
   .customcards {
     grid-template-columns: 50% 50%;
-    grid-gap: 11px;
-    row-gap: 23px;
-    font-size: smaller;
-    width: 96%; }
+    grid-gap: 7px;
+    row-gap: 19px;
+    width: 100%; }
   h1 {
     font-size: 55px; }
   h2 {
@@ -387,4 +414,12 @@ div.at-container {
     font-size: 31px; }
   p {
     font-size: 26px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; } }
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  .content p {
+    font-size: 15px;
+    color: #00b6ee; }
+  .firstP {
+    font-weight: 200;
+    font-size: 22px; }
+  .usImgFix {
+    display: none; } }

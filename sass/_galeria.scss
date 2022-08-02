@@ -5,6 +5,7 @@
 }
 
 .galeria {
+
 	display: flex;
 	padding-left: 6%;
 	flex-wrap: wrap;
@@ -12,6 +13,23 @@
 	}
 }
 .gallery__image{
+	width: 20%;
 	@extend .roundborder;
 	@extend .hovercards;
 }
+
+.img-hover-zoom{
+	overflow: hidden;
+
+}
+
+.gallery__image {
+	transition: transform .5s ease-in-out;
+  }
+  
+  /* The Transformation */
+  .gallery__image:hover {
+	transform: scale(1.5);
+  }.gallery__image:hover {
+	transform: scale(1.5) rotate(15deg);
+  }

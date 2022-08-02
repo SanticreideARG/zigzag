@@ -37,6 +37,7 @@
 }
 .footer__copyright p{
 	color: rgb(44, 44, 44);
+	font-size: 21px;
 }
 
 	.icon {
@@ -58,6 +59,9 @@
 	@extend .roundborder;
 	@extend .hovercards
 }
+	.logo img{
+		width: 200px;
+	}
 
 .footer__whatsaap{
     @include fondo(rgb(0, 80, 0), (rgb(0, 37, 0)), (rgb(0, 212, 0)));

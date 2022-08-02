@@ -2,25 +2,28 @@
     .header{
     &__logo2{
             height: 150px;
-        }
+    }
     &__logo{
         display: none;
-        }
+     }
+
     .why {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(2, 1fr);
            }
-        }
+    }
+
     .galeria {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
 
-        }
+    }
     .gallery__image{
         width: 90%;
     }
+
     .footer{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -34,10 +37,9 @@
     }
     .customcards{
         grid-template-columns: 50% 50%;
-        grid-gap: 11px;
-        row-gap: 23px;
-        font-size: smaller;
-        width: 96%;
+        grid-gap: 7px;
+        row-gap: 19px;
+        width: 100%;
     }
     h1{
         font-size: 55px;
@@ -58,5 +60,20 @@
     p{
         font-size: 26px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    } 
+
+    .content p{
+        font-size: 15px;
+        color: rgb(0, 182, 238);
+    }
+    
+    .firstP {
+        font-weight: 200;
+        font-size: 22px;
+    }
+
+
+    .usImgFix{
+       display: none;
     }
 }
